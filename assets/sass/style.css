@@ -5130,15 +5130,16 @@ img {
 }
 .wpo-testimonial-section .testimonial-wrapper::before,
 .wpo-testimonial-section-s2 .testimonial-wrapper::before {
-  position: absolute;
-  content: "";
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: #0D0925;
-  opacity: 0.5;
-  z-index: -1;
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    backdrop-filter: blur(1px);
+    width: 100%;
+    height: 100%;
+    background: #161038;
+    opacity: 0.8;
+    z-index: -1;
 }
 .wpo-testimonial-section .testimonial-wrapper .testimonial-text,
 .wpo-testimonial-section-s2 .testimonial-wrapper .testimonial-text {
