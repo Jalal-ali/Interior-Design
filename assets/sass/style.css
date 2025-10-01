@@ -6320,7 +6320,8 @@ img {
 }
 @media (max-width: 991px) {
   .wpo-project-area-s2 .wpo-project-wrap .project-grids .grid:nth-child(4) img {
-    min-height: 282px;
+    /* min-height: 282px; */
+    min-height: auto;
     -o-object-fit: cover;
        object-fit: cover;
   }
