@@ -1732,8 +1732,8 @@ img {
 }
 .wpo-site-header #navbar ul {
   list-style: none;
+  gap: 12px;
 }
-
 @media (max-width: 991px) and (max-width: 991px) {
   .wpo-site-header #navbar {
     top: 0;
@@ -3765,7 +3765,8 @@ img {
     width: 100%;
     height: 100%;
     content: "";
-    background: #ac8d68eb;
+    background: linear-gradient(25deg, #6e5a40c2, #AC8D68);
+    /* background: #ac8d68eb; */
     opacity: 0.99;
     z-index: -1;
 }
@@ -9967,3 +9968,6 @@ img {
 .error-404-section .error-message .theme-btn::after, .error-404-section .error-message .view-cart-btn::after {
   background: #070143;
 }/*# sourceMappingURL=style.css.map */
+.p-54 {
+  padding-top: 54px;
+}
